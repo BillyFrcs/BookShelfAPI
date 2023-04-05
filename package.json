@@ -5,9 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./src/server.js",
+    "start": "NODE_ENV=production node ./src/server.js",
     "dev": "nodemon ./src/server.js",
-    "lint": "eslint ./"
+    "lint": "eslint ./src"
   },
   "keywords": [],
   "author": "Billy Franscois",
